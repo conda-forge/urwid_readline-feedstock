@@ -1,5 +1,5 @@
 {% set name = "urwid_readline" %}
-{% set version = "0.14" %}
+{% set version = "0.15.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/urwid_readline-{{ version }}.tar.gz
-  sha256: 8fabd2e501c124a30d38cfb10610b32f119a615ec0b310ae5591c583fb00bd09
+  sha256: 9301444b86d58f7d26388506b704f142cefd193888488b4070d3a0fdfcfc0f84
 
 build:
   number: 0
